@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  margin: 0;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.shahda-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.color-bar {
+  display: flex;
+  align-self: center;
+  color: #ffffff;
+  height: 40px;
+  background-color: #f2b705;
+}
+@keyframes slider {
+}
+.padding-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fdfde79d;
+  gap: 60px;
+  padding: 20px 50px;
+}
+.logo-header {
+  width: 100%;
+  max-width: 200px;
+  height: 56px;
+}
+.logo-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shahda-header nav {
+  display: flex;
+  justify-self: center;
+  width: 60%;
+}
+.shahda-header nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.shahda-header nav ul li {
+  display: flex;
+  flex-direction: row;
+}
+.shahda-header nav ul li a {
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4a4945;
+}
