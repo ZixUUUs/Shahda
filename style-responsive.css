@@ -3,3 +3,88 @@
     padding: 20px 80px;
   }
 }
+
+@media (max-width: 990px) {
+  .padding-container {
+    padding: 20px 20px;
+    gap: 0;
+  }
+  .logo-header {
+    margin: 0 auto;
+  }
+  .header-responsiv {
+    display: flex;
+  }
+  .header-responsiv button {
+    border: 1px solid #f2b705;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #fdfde79d;
+    padding: 2px;
+  }
+  .padding-container nav {
+    display: none;
+  }
+  .side-bare-div {
+    position: fixed;
+    top: 130px;
+    left: 0;
+    background-color: #f2b705;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 70px;
+    animation: start 0.5s ease-in-out forwards;
+    z-index: 9999;
+    border-top: 2px solid #d86752;
+  }
+  @keyframes start {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes end {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0%;
+    }
+  }
+  .side-bare-div img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ffffff;
+    align-self: center;
+  }
+  .close-btn {
+    position: absolute;
+    left: 94%;
+    top: 1%;
+    background: none;
+    border: none;
+  }
+  .close-btn svg {
+    width: 30px;
+    height: 30px;
+    color: black;
+  }
+  .nav-list {
+    padding: 20px 50px;
+  }
+  .nav-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  nav ul li {
+    display: flex;
+    flex-direction: row;
+  }
+}
