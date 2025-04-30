@@ -28,12 +28,12 @@ li {
   width: 100%;
   background-color: #ffd9484d;
 }
+
 .color-bar {
   width: 100%;
   display: flex;
   align-self: center;
   height: 40px;
-  background-color: #fdfde7;
 }
 .header-responsiv {
   display: none;
@@ -46,7 +46,7 @@ li {
   align-items: center;
   background-color: #f2b70539;
   gap: 60px;
-  padding: 20px 50px;
+  padding: 20px 200px;
   margin-bottom: 20px;
 }
 .logo-header {
@@ -64,7 +64,7 @@ li {
 .shahda-header nav {
   display: flex;
   justify-self: center;
-  width: 60%;
+  width: 70%;
 }
 .shahda-header nav ul {
   width: 100%;
@@ -76,12 +76,19 @@ li {
 .shahda-header nav ul li {
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 .shahda-header nav ul li a {
   font-family: "Afacad Flux", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #4a4945;
+}
+.shahda-header nav ul li .svg-container svg {
+  transition: all 0.3s ease-in-out;
+}
+.shahda-header nav ul li:hover .svg-container svg {
+  transform: rotateZ(-90deg);
 }
 
 /*sections*/
