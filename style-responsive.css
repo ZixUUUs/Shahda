@@ -1,9 +1,27 @@
-@media (max-width: 1600px) {
+@media screen and (max-width: 1600px) {
+  .padding-container nav {
+    display: flex;
+  }
   .padding-container {
     padding: 20px 80px;
   }
+  /*Section-1*/
+  .text-container-sec-1 h1 {
+    font-size: 96px;
+  }
+  .text-container-sec-1 p {
+    font-size: 64px;
+  }
 }
-
+@media screen and (max-width: 1250px) {
+  /*Section-1*/
+  .text-container-sec-1 h1 {
+    font-size: 72px;
+  }
+  .text-container-sec-1 p {
+    font-size: 52px;
+  }
+}
 @media screen and (max-width: 990px) {
   .padding-container {
     padding: 20px 20px;
@@ -86,5 +104,60 @@
   nav ul li {
     display: flex;
     flex-direction: row;
+  }
+  /*Section-1*/
+  .bg-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 65%;
+  }
+  .text-container-sec-1 {
+    left: 20px;
+  }
+  .text-container-sec-1 h1 {
+    font-size: 52px;
+  }
+  .text-container-sec-1 p {
+    font-size: 42px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bg-img img {
+    object-position: 98%;
+  }
+  .text-container-sec-1 {
+    align-self: flex-start;
+  }
+}
+@media screen and (max-width: 450px) {
+  /*Section-1*/
+
+  .text-container-sec-1 {
+    left: 80px;
+  }
+  .text-container-sec-1 h1 {
+    font-size: 42px;
+    align-self: center;
+  }
+  .text-container-sec-1 span {
+    display: none;
+  }
+  .text-container-sec-1 p {
+    display: none;
+    font-size: 32px;
+  }
+  .responsiv-text-mainHero {
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: -70px;
+    bottom: 0;
+    display: flex;
+    font-family: "MonteCarlo", cursive;
+    font-weight: lighter;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
   }
 }
